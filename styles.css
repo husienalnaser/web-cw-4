@@ -15,19 +15,72 @@ html, body{
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: blue ;
+    height: 97%;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sidebar:hover{
+    background-color: green;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 15%;
+    background-color: lightblue;
+    margin-bottom: 10px ;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+    
+    
+    width: 100%;
+    
+}
+.header:hover{
+    background-color: green;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 850px
+    
+    
+    
+}
+.btn:hover{
+    color: green;
 }
 
 .main{
+    background-color: gray;
+    height: 79%;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    
+    
 
+}
+.main:hover{
+    background-color: green;
 }
 
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+    text-decoration: none;
+}
+a:hover{
+    color: white;
 }
 
 /* !بــونص */
@@ -44,5 +97,22 @@ h1{
 h2{
     margin: 0;
     margin-left: 5px;
+}
+.flexer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+}
+.list{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.everything{
+    height: 100%;
 }
 
